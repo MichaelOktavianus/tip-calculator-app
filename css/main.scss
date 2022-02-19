@@ -142,7 +142,7 @@ body {
     font-weight: 700;
     color: hsl(183, 100%, 15%);
     z-index: 99;
-    background: url(/images/icon-dollar.svg)no-repeat scroll 0.8em center;
+    background: url("./images/icon-dollar.svg")no-repeat scroll 0.6em center;
 
 }    
 #main-input::placeholder {
@@ -179,7 +179,7 @@ body {
     font-weight: 700;
     color: hsl(183, 100%, 15%);
     z-index: 1;
-    background: url(/images/icon-person.svg) no-repeat scroll 0.8em center;
+    background: url("./images/icon-person.svg") no-repeat scroll 0.5em center;
 }
 #people-input::placeholder {
     color: hsl(187, 12%, 72%);
@@ -254,14 +254,17 @@ body {
     }
     .input-container {
         width: 22em;
+        margin-left: 0.9em
     }
-
+    .input-container-people {
+        margin-left: 0.9em
+    }
     .main-text {
         margin-left: 1.6em;
     }
     .buttons button {
         margin: 10px 0.1em;  
-        width: 6.9em;
+        width: 6.6em;
     }
     
     #custom{
@@ -287,7 +290,7 @@ body {
         }
     }
     .buttons {
-        margin-left: 1.5em;
+        margin-left: 1.2em;
     }
 }
 @media screen and (min-width : 400px) {
