@@ -159,7 +159,7 @@ body {
   font-weight: 700;
   color: #00494d;
   z-index: 99;
-  background: url("./images/icon-dollar.svg") no-repeat scroll 0.6em center;
+  background: url(/images/icon-dollar.svg) no-repeat scroll 0.6em center;
 }
 
 #main-input::-webkit-input-placeholder {
@@ -214,7 +214,7 @@ body {
   font-weight: 700;
   color: #00494d;
   z-index: 1;
-  background: url("./images/icon-person.svg") no-repeat scroll 0.5em center;
+  background: url(/images/icon-person.svg) no-repeat scroll 0.5em center;
 }
 
 #people-input::-webkit-input-placeholder {
