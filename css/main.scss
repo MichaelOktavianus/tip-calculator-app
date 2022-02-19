@@ -1,0 +1,420 @@
+
+body {
+    background-color:hsl(185, 41%, 84%) ;
+    margin: 0;
+    padding: 0;
+    
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+#greyText {
+    color: hsl(186, 14%, 43%) ;
+    margin-left: 1.6em;
+    margin-top: 2em;
+    margin-bottom: -0.1em;
+}
+#greyText2 {
+    color: hsl(186, 14%, 43%) ;
+    margin-left: 1.6em;
+    margin-bottom: -0.1em;
+    margin-top: 1.3em;
+}
+.buttons {
+    margin-left: 1.2em;
+    
+}
+.buttons button{
+    span {
+        text-align: center;
+
+        &:hover {
+            background-color: hsl(172, 67%, 45%);
+            color: hsl(183, 100%, 15%);
+        }
+    }
+    font-family: 'Space Mono', monospace;
+    color: white;
+    margin: 10px 3px;
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    width: 6.3em;
+    border-radius: 5px;
+    height: 2em;
+    font-size: 24px;
+    cursor:pointer;
+    font-weight: 700;
+    &:hover {
+        background-color: hsl(186, 68%, 73%);
+        color: hsl(183, 100%, 15%);
+    }
+}
+#top-btn {
+    margin-top: -0.2em;
+}
+#custom {
+    background-color: hsl(207, 27%, 92%);
+    color: hsl(186, 14%, 43%);
+    width: 6.3em;
+    border-radius: 5px;
+    height: 2em;
+    font-size: 24px;
+    border: none;
+    margin: 10px 3px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    text-align: right;
+
+}
+#custom-input{
+    background-color: hsl(207, 27%, 92%);
+    color: hsl(186, 14%, 43%);
+    width: 6.3em;
+    border-radius: 5px;
+    z-index: 99;
+    height: 2em;
+    font-size: 24px;
+    border: none;
+    margin: 10px 3px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    text-align: right;
+}
+.container {
+    background-color: hsl(189, 41%, 97%);
+    margin-top: 3em;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    margin-left: 10em;
+    border-radius: 1.5em 1.5em 0 0 ;
+    width: 100%;
+    height: 46em;
+    display: block;
+    margin: 3em -1em 1em 0 ;
+    font-family: 'Space Mono', monospace;
+    min-width: 375px;
+    max-width: 990px;
+
+    margin-left: -1em;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+}
+.main-logo {
+    width: 5em;
+    height: 3.5em;
+    margin-top: 3em;
+}
+.main-text {
+    color: hsl(186, 14%, 43%);
+    margin-left: 1.5em;
+    margin-bottom: 0.4em;
+
+}
+.input-container {
+    position: relative;
+    display: block;
+    z-index: 2;
+    background-color:hsl(205, 29%, 92%);
+    text-align:center;
+    width: 87%;
+    height: 3em;
+    margin: 0 auto;
+}
+.money-logo{
+    width: 1em;
+    height: 2em;
+
+}
+#main-input {
+    width: 95%;
+    height: 1.5em;
+    margin: 0.2em -1em ;
+    border: none;
+    background-color:hsl(205, 29%, 92%);
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+    z-index: 99;
+    background: url(/images/icon-dollar.svg)no-repeat scroll 0.8em center;
+
+}    
+#main-input::placeholder {
+        color: hsl(187, 12%, 72%);
+    }
+.active-btn {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+.section2 {
+    justify-content: space-between;
+}
+.input-container-people {
+    position: relative;
+    display: block;
+    z-index: 2;
+    background-color:hsl(205, 29%, 92%);
+    text-align: center;
+    width: 95%;
+    height: 3em;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+#people-input {
+    width: 95%;
+    height: 1.5em;
+    margin: 0.2em auto ;
+    border: none;
+    background-color:hsl(205, 29%, 92%);
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+    z-index: 1;
+    background: url(/images/icon-person.svg) no-repeat scroll 0.8em center;
+}
+#people-input::placeholder {
+    color: hsl(187, 12%, 72%);
+}
+.total {
+    background-color: hsl(183, 100%, 15%);
+    width: 90%;
+    justify-content: center;
+    height: fit-content;
+    display: block;
+    margin: 1em auto;
+    padding: 1em 1em 1em 0.5em;
+    border-radius: 15px;
+
+    .total-content {
+        margin: 1em;
+        margin-left: 1.5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: -1em;
+    }
+    h4 {
+        color: hsl(205, 29%, 92%);
+        margin: 1.5em;
+        margin-bottom: -0.7em;
+    }
+    p {
+        color: hsl(186, 14%, 43%);
+        margin-top: -1.5em;
+        font-size: 14px;
+        font-weight: 700;
+
+    }
+    #tip-amount {
+        color: hsl(172, 67%, 45%);
+        font-size: 1.7rem;
+
+    }
+    #total-tip {
+        color: hsl(172, 67%, 45%);
+        font-size: 1.7rem;
+    }
+    .total-content2 {
+        margin: 1em;
+        margin-left: 1.5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #reset-btn {
+            width: 85%;
+            display: block;
+
+            height: 2.5em;
+            margin: 0 auto;
+            margin-top: -1em;
+            margin-bottom: 0.5em;
+            border: none;
+            background-color: hsl(185, 82%, 24%);
+            color: hsl(183, 100%, 15%);
+            font-size: larger;
+            font-weight: 700;
+            font-family:'Space Mono', monospace ;
+            border-radius: 5px;
+            
+    }
+}
+@media screen and (max-width : 400px) {
+    .container {
+        height: 49em;
+    }
+    .input-container {
+        width: 22em;
+    }
+
+    .main-text {
+        margin-left: 1.6em;
+    }
+    .buttons button {
+        margin: 10px 0.1em;  
+        width: 6.9em;
+    }
+    
+    #custom{
+        width: 4.7em;
+        padding: 0.3em 0.5em;
+    }
+    #custom-input{
+        width: 4.7em;
+    }
+
+    .total {
+        width: 22em;
+        margin: 2em -0.4em ;
+        h4 {
+            margin-left: -11em;
+
+        }
+        .h4-total {
+            margin-left: -14em;
+        }
+        p {
+            margin-top: -1em;
+        }
+    }
+    .buttons {
+        margin-left: 1.5em;
+    }
+}
+@media screen and (min-width : 400px) {
+    .main-text {
+        margin-left: 2em;
+    }
+    
+    #custom{
+        width: 4.7em;
+        padding: 0.3em 0.2em;
+    }
+    #custom-input{
+        width: 4.8em;
+    }
+    .total {
+
+        .h4-total {
+            margin-left: -14em;
+        }
+        h4 {
+            margin-left: -11em;
+        }
+        p {
+            margin-top: -1em;
+        }
+
+    }
+}
+@media screen and (min-width : 450px) {
+    .buttons {
+            margin-left: 3.5em;
+        }
+}
+
+@media only screen and (min-width : 680px) {
+    .main-text {
+        margin-left: 3em;
+    }
+    
+    .container {
+        height: 55em;
+    }
+    .input-container {
+        margin: 0 3em;
+        width: 30em;
+    }
+    .input-container-people {
+        width: 30em;
+    }
+    #greyText, #greyText2, .buttons, .input-container-people {
+        margin-left: 3em;
+    }
+    .buttons {
+        width: 40em;
+    }
+    .total {
+        .h4-total {
+            margin-left: -17em;
+        }
+        h4 {
+            margin-left: -14em;
+        }
+        #tip-amount, #total-tip {
+            font-size: 2.3rem;
+            padding-top: 0.4em;
+        }
+        #reset-btn {
+        margin-top: 6em;
+        } 
+    }
+        
+    
+}
+@media only screen and (min-width : 965px) {
+    .container {
+        margin: 3em 2.5em 1em 2.5em;
+        width: 58em;
+        height: 27em;
+        border-radius: 2em;
+
+    }
+    .input-container {
+        z-index: 99;
+        width: 25em;
+    }
+    .input-container-people {
+        width: 25em;
+    }
+    .buttons {
+        width: 30em;
+    }
+    .buttons button {
+        width: 5em;
+    }
+    #custom{
+        width: 4.7em;
+        padding: 0.3em 0.2em;
+    }
+    #custom-input{
+        width: 3.7em;
+    }
+    .total {
+        //left: 320px;
+        //bottom: 100px;
+        margin: -23em 27em;
+        height: 24em;
+        display: block;
+        width: 25em;
+        
+        p {
+            margin-top: -1.4em;
+        }
+        #tip-amount, #total-tip {
+            font-size: 2.3em;
+            margin-right: 0.5em;
+        }
+        .h4-total {
+            margin-top: 1em;
+        }
+        #h4-tip {
+            z-index: 0;
+            
+        }
+    }
+    .section2 {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+    
