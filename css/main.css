@@ -160,6 +160,7 @@ body {
   color: #00494d;
   z-index: 99;
   background: url(/images/icon-dollar.svg) no-repeat scroll 0.6em center;
+  background-position-y: 999;
 }
 
 #main-input::-webkit-input-placeholder {
@@ -215,6 +216,7 @@ body {
   color: #00494d;
   z-index: 1;
   background: url(/images/icon-person.svg) no-repeat scroll 0.5em center;
+  background-position-y: 999;
 }
 
 #people-input::-webkit-input-placeholder {

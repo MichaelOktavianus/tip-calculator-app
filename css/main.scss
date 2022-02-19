@@ -143,6 +143,7 @@ body {
     color: hsl(183, 100%, 15%);
     z-index: 99;
     background: url(/images/icon-dollar.svg)no-repeat scroll 0.6em center;
+    background-position-y: 999;
 
 }    
 #main-input::placeholder {
@@ -180,6 +181,7 @@ body {
     color: hsl(183, 100%, 15%);
     z-index: 1;
     background: url(/images/icon-person.svg) no-repeat scroll 0.5em center;
+    background-position-y: 999;
 }
 #people-input::placeholder {
     color: hsl(187, 12%, 72%);
